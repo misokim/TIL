@@ -1,5 +1,3 @@
-console.log("hi!")
-
 const clockForm = document.querySelector(".js-clock");
 const clockArea = clockForm.querySelector("h1");
 
@@ -15,6 +13,6 @@ function getTime() {
 function init() {
   getTime();
   setInterval(getTime, 1000)
-} 
+}
 
 init();
